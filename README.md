@@ -31,10 +31,10 @@ Not tested yet. But looks nice.
 
 For cleverness sake, chip adapters can be used.
 
-With R1/R4 and R14/R15 the range of the pots can be limited.  **For testing u can just short the**.
-In theory 0V is 0dB and then the gain factor is -33mV/dB with a max range of -120..+20 dB, that means -0.66V=+20dB and 3.96V=-120dB.
+With R1/R4 and R14/R15 the range of the pots can be limited.  **For testing u can just short these**.
+In theory 0V is 0dB and then the gain factor is -33mV/dB with a max range of -120..+20 dB, that equals 3.96V=-120dB to -0.66V=+20dB.
 
-Ask yor favorite chat bot for a volage divider fitting your needs.
+Ask your favorite chat bot for a voltage divider fitting your needs.
 
     To design a voltage divider with three resistors in series between +12V and -12V that meets your specified voltage requirements, we'll follow these steps:
 
@@ -55,7 +55,7 @@ Ask yor favorite chat bot for a volage divider fitting your needs.
     - You may need to use standard resistor values close to the calculated ones (e.g., 17.4 kΩ ≈ 17.8 kΩ or 18 kΩ; 24.55 kΩ ≈ 24.9 kΩ or 25 kΩ). 
     - For higher precision, you can use a potentiometer or combine resistors in series/parallel.
 
-Or use the experimental [falstad circuit](https://www.falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3BWcMBMcUHYMGZIA4UA2ATmIxAUgpABZsKBTAWjDACgA3WvEPKmnmGIooomlTAiq06Ak7dwwhdjSj+EqWtlsATiBQJCvKgaNgaNUWni79h-eLtGV05DYDuTkC-AXvqyDZPU2NfSz4oIIUhEXNLGMiABzDQuMURelcweBy2ZLSEtJ9M0WycuCii1QF-aUq-CJqIwOS6WKU270hLEolyirAMSxCi7ocJNzgoWRAAJQYAZwBLBYAXAEMAOwBjBjYAcxAWMyVj8bUD2hUuy07sBE1AzzOEmoSnm-Sr9qk87wfzvcMgDepNcq1iGY-DRIV5QWVylEYVDhvY0h8gecQihHBiQQC7mMPoTbrCQoEgA).
+Or use the experimental [falstad circuit](https://www.falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3BWcMBMcUHYMGZIA4UA2ATmIxAUgpABZsKBTAWjDACgA3WvcYlbkHirDaVMPxEwEnAdjQCwfKMppiJyqWwBOIFAkKCqeg2Bo1lYIXG279u1bYNyRe+GwDujkM-Bnv8yA8vIV9zEMDPGh5FflNzGKg2AAdQw1SE+hEweBzk9KU4-ypMixy3T0KfKKLEir8Q6vC8ulilFu9IcxKxMuswDHNjVNxBhwhs+ChYSCQAJQYAZwBLBYAXAEMAOwBjBjYAcxAWEyVj+0kD2jkO83bsBHUIo7AT-mqEp5HeN+uPvPv+CgHADvA9vBpkL1msQTH4aDCvN1IWUgvDYYM7IVPmCgUY7LjaqD+CC7p1CaTbgihoEgA).
 
 ### BOM
 
