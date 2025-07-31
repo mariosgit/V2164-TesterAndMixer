@@ -4,13 +4,30 @@ Simple board to test V2164 chips. Follows the application example in the SSM2164
 
 Can also be used as a 2 channel stereo mixer.
 
-![](./images/Screenshot%202025-07-10%20at%2016.52.10.png)
+| | |
+|---|---|
+| ![](./images/Screenshot%202025-07-10%20at%2016.52.10.png) | ![](./images/IMG_2063.jpg) |
+
+
 
 ## Status
 
 Not tested yet. But looks nice.
 
-### Gimmics
+### v0.1 Test results
+
+* It works ✅
+* Pot direction reversed - CCW turns gain up 😒
+* right side ouput label should be "3+4" 🤷‍♂️
+* Resistor divider - one would be enouth
+
+### v0.2 not tested / will not test / should be ok.
+
+* twisted Pot directions
+* changed right out label
+* added version label
+
+## Gimmics
 
 For cleverness sake, chip adapters can be used.
 
@@ -51,7 +68,7 @@ Or use the experimental [falstad circuit](https://www.falstad.com/circuit/circui
 | R1, R4, R14, R15             | 5k see notes | 603 | 4 |
 | *R9*                         | 7.5k for class A or *open for class AB* | 603 | 1 |
 | U1                           | SSI2164 | DIP-16 7.62mm or SO-16 + Adapter | 1 |
-| U2                           | TL074 | DIP-14 7.62mm or SO/SOP/TSOP-14 + Adapter | 1 |
+| U2                           | TL074 <br> or any such 4x OpAmp | DIP-14 7.62mm or SO/SOP/TSOP-14 + Adapter | 1 |
 | RV1, RV2                     | 10k see notes | 9mm Potentiometer Vertical | 2 |
 
 
