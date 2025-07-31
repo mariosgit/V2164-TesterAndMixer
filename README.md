@@ -12,7 +12,7 @@ Can also be used as a 2 channel stereo mixer.
 
 ## Status
 
-Not tested yet. But looks nice.
+Ok.
 
 ### v0.1 Test results
 
